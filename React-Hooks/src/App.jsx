@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useState,useEffect } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
@@ -8,13 +8,8 @@ function App() {
   const [count, setCount] = useState(0)
 
   useEffect(() => {
-    first
-
-    return()=>{
-      second
-    }
-
-  }, [third])
+    alert("Hey Welcome to my page")
+  }, [])
 
   return (
     <>
