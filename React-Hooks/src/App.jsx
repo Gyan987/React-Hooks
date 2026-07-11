@@ -6,10 +6,22 @@ import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
+  const [first, setFirst]=useState(0)
 
   useEffect(() => {
     alert("Hey Welcome to my page")
   }, [])
+
+  
+  useEffect(() => {
+    alert("Count was changed")
+  }, [count])
+
+    useEffect(() => {
+    alert("First was changed")
+  }, [first])
+
+
 
   return (
     <>
