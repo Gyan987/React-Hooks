@@ -9,6 +9,8 @@ function App() {
       <Header></Header>
       <Footer></Footer>
       <Food></Food>
+      <Food></Food>
+      <Food></Food>
     </>
   );
 }
