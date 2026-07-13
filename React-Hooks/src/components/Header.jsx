@@ -1,16 +1,15 @@
 function Header() {
 
 
-
-
     return(
         <header>
             <h1>My Website App</h1>
             <nav>
-                <li>Home</li>
-                <li>About</li>
-                <li>Contact</li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
             </nav>
+            <hr></hr>
         </header>
     );
 }
